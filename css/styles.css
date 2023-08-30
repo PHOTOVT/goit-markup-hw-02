@@ -44,14 +44,14 @@ ul, ol {
 }
 
 .nav-link {
-    color: var(--color-slate);
+    color: var(--color-navy);
     font-size: 16px;
     font-weight: 500;
     line-height: 150%; 
     letter-spacing: 0.32px;
 }
 
-.nav-link:hover, .link:focus {
+.nav-link:hover, .nav-link:focus {
     color: var(--color-ocean);
 } 
 
@@ -115,6 +115,7 @@ ul, ol {
 }
 
 .second-title {
+    color: var(--color-navy);
     font-size: 36px;
     font-weight: 700;
     line-height: 111.111%;
