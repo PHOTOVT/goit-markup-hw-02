@@ -9,7 +9,7 @@
 }
 
 body {
-    color: var(--color-navy);
+    color: var(--color-slate);
     background-color: var(--color-white);
     font-family: "Roboto", sans-serif;
 }
@@ -44,14 +44,14 @@ ul, ol {
 }
 
 .nav-link {
-    color: var(--color-navy);
+    color: var(--color-slate);
     font-size: 16px;
     font-weight: 500;
     line-height: 150%; 
     letter-spacing: 0.32px;
 }
 
-.nav-link:hover, .nav-link:active {
+.nav-link:hover, .link:focus {
     color: var(--color-ocean);
 } 
 
@@ -74,6 +74,7 @@ ul, ol {
 
 .first-title {
     color: var(--color-white);
+    text-align: center;
     letter-spacing: 1.12px;
     font-size: 56px;
     font-weight: 700;
@@ -123,13 +124,10 @@ ul, ol {
 }
 
 .member {
-    justify-content: center;
     background-color: var(--color-white);
 }
 
 .example {
-    flex-direction: column;  
-    flex-shrink: 0;
     border: 1px solid var(--color--cornflower);
 }
 
