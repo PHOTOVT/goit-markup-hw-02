@@ -1,0 +1,169 @@
+:root {
+    --color-navy: #2E2F42;
+    --color-white: #FFFFFF;
+    --color--cornflower: #E7E9FC;
+    --color-cloud: #F4F4FD; 
+    --color-iris: #4D5AE5;
+    --color-slate: #434455;
+    --color-ocean: #404BBF;
+}
+
+body {
+    color: var(--color-navy);
+    background-color: var(--color-white);
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+
+p {
+    color: var(--color-slate);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.header {
+    border-bottom: 1px solid var(--color--cornflower);
+}
+
+.web {
+    color: var(--color-iris);
+
+}
+
+.studio-header {
+    color: var(--color-navy);
+}
+
+.studio-footer {
+    color: var(--color-cloud);
+}
+
+.web, .studio-header, .studio-footer {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 116.667%; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.nav-studio, .nav-portfolio, .nav-contacts {
+    color: var(--color-navy);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%; 
+    letter-spacing: 0.32px;
+}
+
+.nav-studio:active, .nav-portfolio:active, .nav-contacts:active {
+    color: var(--color-ocean);
+} 
+
+.mail, .call {
+    color: var(--color-slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.mail:focus, .mail:hover, .call:focus, .call:hover {
+    color: var(--color-ocean);
+} 
+
+.order {
+    background-color: var(--color-navy);
+}
+
+.order-title {
+    color: var(--color-white);
+    letter-spacing: 1.12px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%
+}
+
+.order-button {
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: var(--color-ocean);
+}
+
+.team {
+    background-color: var(--color-cloud);
+}
+
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.member {
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--color-white);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-title {
+    color: var(--navyblue, #2E2F42);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.example {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--color--cornflower);
+}
+
+.footer {
+    background-color: var(--color-navy);
+}
+
+.text-footer {
+    color: var(--color-cloud);
+}
