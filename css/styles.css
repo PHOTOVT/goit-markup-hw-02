@@ -22,19 +22,15 @@ ul, ol {
     list-style-type: none;
 }
 
-.logo {
+.nav-logo {
     color: var(--color-iris);
 }
 
-.studio-header {
+.logo-studio-header {
     color: var(--color-navy);
 }
 
-.studio-footer {
-    color: var(--color-cloud);
-}
-
-.logo, .studio-header, .studio-footer {
+.nav-logo, .logo-studio-header, .logo-studio-footer {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -59,7 +55,7 @@ ul, ol {
     font-style: normal;
 }
 
-.contacts {
+.address-contacts {
     color: var(--color-slate);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -69,7 +65,7 @@ ul, ol {
     letter-spacing: 0.32px;
 }
 
-.contacts:hover, .contacts:focus {
+.address-contacts:hover, .address-contacts:focus {
     color: var(--color-ocean);
 } 
 
@@ -108,8 +104,11 @@ ul, ol {
     letter-spacing: 0.02em;
 }
 
-.text, .text-footer {
+.text {
     color: var(--color-slate);
+}
+
+.text, .text-footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -129,16 +128,20 @@ ul, ol {
     text-align: center;
 }
 
-.member {
+.team-member {
     background-color: var(--color-white);
 }
 
-.example {
+.portfolio-example {
     border: 1px solid var(--color--cornflower);
 }
 
 .footer {
     background-color: var(--color-navy);
+}
+
+.logo-studio-footer {
+    color: var(--color-cloud);
 }
 
 .text-footer {
